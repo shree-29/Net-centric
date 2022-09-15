@@ -1,0 +1,96 @@
+
+
+.dc{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+  }
+  .desktop{
+    display: flex;
+    font-size: 6vh;
+    justify-content: center;
+  }
+ .content{
+    display: flex;
+    font-size: 6vh;
+    justify-content: center;
+ }
+
+.div1{
+    height: 50vh;
+    width: 20%;
+    background-color: greenyellow;
+    margin: 2vh 0;
+    border: 3px solid lightseagreen;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div2{
+    height: 50vh;
+    width: 50%;
+    background-color: orange;
+    margin: 2vh 0;
+    border: 3px solid lightseagreen;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div3{
+    height: 50vh;
+    width: 20%;
+    background-color: greenyellow;
+    margin: 2vh 0;
+    border: 3px solid lightseagreen;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.d1{
+    border: 3px solid lightseagreen;
+    border-radius: 5%;
+    background-color: lightgoldenrodyellow;
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d2{
+    border: 3px solid lightseagreen;
+    border-radius: 5%;
+    background-color: grey;
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 600px) {
+    .div2 {
+      width: 100%;
+      height: 40vh;
+    }
+    .div3, .d1 , .d2{
+        width: 100%;
+        height: 13vh;
+    }
+    .div1 , .desktop{
+        display: none;
+    }
+    .dc{
+        display: inline-block;
+        width: 100%;
+        
+    }
+    button{
+        margin-left: 45%;
+    }
+    
+  }

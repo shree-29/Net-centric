@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE application SYSTEM "q3.dtd">
+
+<application>
+    <applicant id="1">
+        <applicant_name>shree</applicant_name>
+        <prefix p="Mr."></prefix>
+        <first_name>Thangavelu</first_name>
+        <last_name>T</last_name>
+        <organization>amrita</organization>
+        <title>associate professor</title>
+        <telephone>6380076653</telephone>
+        <academic_perf ></academic_perf>
+        <intellectual_ability ></intellectual_ability>
+        <ability_to_express ></ability_to_express>
+        <motivation_for_proposed_field ></motivation_for_proposed_field>
+        <admit option="Assuredly"></admit>
+        <full_legal_name>shree k k</full_legal_name>
+    </applicant>
+</application>
+   

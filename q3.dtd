@@ -1,0 +1,23 @@
+
+<!ELEMENT application (applicant+)>
+<!ELEMENT applicant (applicant_name,prefix,first_name,last_name,organization,title,telephone,
+academic_perf,intellectual_ability,ability_to_express,motivation_for_proposed_field,admit,full_legal_name)>
+
+<!ELEMENT applicant_name (#PCDATA)>
+<!ELEMENT prefix (#PCDATA)>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT organization (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT academic_perf (#PCDATA)>
+<!ELEMENT intellectual_ability (#PCDATA)>
+<!ELEMENT ability_to_express (#PCDATA)>
+<!ELEMENT motivation_for_proposed_field (#PCDATA)>
+<!ELEMENT admit (#PCDATA)>
+<!ELEMENT full_legal_name (#PCDATA)>
+
+
+<!ATTLIST applicant id CDATA #REQUIRED>
+<!ATTLIST prefix p (Mr.|Mrs.|Dr.) "Dr.">
+<!ATTLIST admit option (Assuredly|Probably| Possibly| No) "Assuredly">
